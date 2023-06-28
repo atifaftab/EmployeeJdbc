@@ -5,6 +5,16 @@ public class Employee {
     private int id;
     private double salary;
 
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
+
+    private String dept;
+
     public Employee(String name, int id, double salary) {
         this.name = name;
         this.id = id;
