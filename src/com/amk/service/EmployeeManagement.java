@@ -6,7 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeManagement {
-    private List<Employee> employeeList = new ArrayList<>();
+    private List<Employee> employeeList;
+
+    public EmployeeManagement(){
+        employeeList = new ArrayList<>();
+    }
 
     public List<Employee> getEmployeeList() {
         return employeeList;
